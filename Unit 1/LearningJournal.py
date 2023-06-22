@@ -7,6 +7,7 @@ print(" ")
 # leave out one of the quotation marks or both and why?
 
 # print("What happens if you leave out one quote?)
+# print(What happens if you leave out one quote?")
 # If you leave out one quotation mark, you get "Unterminated string literal"
 # telling you that the string is "unterminated", or not ended with a closing
 # quote.
