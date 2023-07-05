@@ -62,7 +62,7 @@ The reason this runtime error occurs is because the variables being called insid
 
 Because this variable doesn't exist, it gives an error stating that it is not defined, and gives a suggestion for the correct variable.
 
-A simple fix for this would be to correct the total_before_tax error on 38 to the proper variable (_total_before_tax).
+- - - A simple fix for this would be to correct the total_before_tax error on 38 to the proper variable (_total_before_tax). - - -
 
 A correct version of this function, called calculate_sales_tax_correct has been provided below that will run properly without any runtime errors because the second variable
 
