@@ -25,7 +25,7 @@ The three possibilities to consider if your function isn't properly working are 
 def find_sum(a, b):
     return a + b
 
-print(find_sum(5, 5)) 
+#print(find_sum(5, 5)) 
 #print(find_sum(5, "Hello"))
 
 '''
