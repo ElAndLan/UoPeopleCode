@@ -116,8 +116,8 @@ def calc_weight(loc, weight):
     else: return "Right now this only works with 'Mars', 'Moon', 'Mercury' and 'Pluto'. Please call this function with one of those two as the first value."
     
 print(" ")
-print(f'If you weighed 150 on Earth, on the moon it would be: {calc_weight("Moon", 150)} lbs ')
-print(f'If you weighed 150 on Earth, on Mars it would be: {calc_weight("Mars", 150)} lbs ')
-print(f'If you weighed 150 on Earth, on Mars it would be: {calc_weight("Mercury", 150)} lbs ')
-print(f'If you weighed 150 on Earth, on Mars it would be: {calc_weight("Pluto", 150)} lbs ')
+print(f'If you weighed 150 on Earth, on the Moon it would be: {calc_weight("Moon", 170)} lbs ')
+print(f'If you weighed 150 on Earth, on Mars it would be: {calc_weight("Mars", 170)} lbs ')
+print(f'If you weighed 150 on Earth, on Mercury it would be: {calc_weight("Mercury", 170)} lbs ')
+print(f'If you weighed 150 on Earth, on Pluto it would be: {calc_weight("Pluto", 170)} lbs ')
 print(" ")
