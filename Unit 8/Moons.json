@@ -1,0 +1,6 @@
+{"Earth": ["Luna"], 
+"Mars": ["Phobos", "Deimos"], 
+"Jupiter": ["Io", "Europa", "Ganymede", "Callisto"], 
+"Saturn": ["Titan", "Enceladus"],
+"Uranus": ["Umbriel", "Titania", "Puck"],
+"Neptune": ["Triton", "Sao", "Hippocamp","Proteus"]}
