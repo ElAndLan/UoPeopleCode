@@ -51,7 +51,7 @@ def add_to_bill(_item_one=0, _item_two=0, _item_three=0):
         _total += apply_discount(_item_one, _item_two, _item_three)
     elif _item_three > 0 and _item_two > 0:
         print(
-            f'Combo Pack (Work Boots + Sneakers) {apply_discount(_item_one, _item_two, _item_three)}')
+            f'Combo Pack (Work Boots + Sneakers)            {apply_discount(_item_one, _item_two, _item_three)}')
         _total += apply_discount(_item_one, _item_two, _item_three)
     elif _item_one > 0:
         print(
@@ -102,8 +102,10 @@ print("---------------------------------------------------")
 add_to_bill(1, 1, 1)
 add_to_bill(1, 0, 1)
 add_to_bill(1, 1, 0)
+add_to_bill(0, 1, 1)
 add_to_bill(1, 0, 0)
 add_to_bill(0, 1, 0)
 add_to_bill(0, 0, 1)
 print("---------------------------------------------------")
 print(f"Total                                         {_total}")
+

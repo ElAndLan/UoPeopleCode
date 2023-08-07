@@ -34,7 +34,7 @@ def get_input():
         countdown(n)
     else: countup(n)
     
-#get_input()
+get_input()
 
 # 2. Write your own unique Python program that has a runtime error.
 
@@ -74,4 +74,4 @@ def calculate_sales_tax_correct():
     _total_before_tax = float(input("What is your total cost before tax?\n"))
     print(f"the tax on apurchase of {_total_before_tax} is {(_total_before_tax * .10)}")
     
-calculate_sales_tax_correct()
+#calculate_sales_tax_correct()
